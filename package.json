@@ -1,0 +1,25 @@
+{
+  "name": "community-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwipsity/community-bot.git"
+  },
+  "author": "fwipsity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwipsity/community-bot/issues"
+  },
+  "homepage": "https://github.com/fwipsity/community-bot#readme",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "dotenv": "^8.2.0",
+    "sqlite": "^4.0.19",
+    "tmi": "^2.0.0"
+  }
+}
