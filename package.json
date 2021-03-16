@@ -1,25 +1,27 @@
 {
-  "name": "community-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fwipsity/community-bot.git"
-  },
-  "author": "fwipsity",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fwipsity/community-bot/issues"
-  },
-  "homepage": "https://github.com/fwipsity/community-bot#readme",
-  "dependencies": {
-    "discord": "^0.8.2",
-    "dotenv": "^8.2.0",
-    "sqlite": "^4.0.19",
-    "tmi": "^2.0.0"
-  }
+    "name": "community-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon ./main.js",
+        "resetDB": "node ./resetDB.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fwipsity/community-bot.git"
+    },
+    "author": "fwipsity",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fwipsity/community-bot/issues"
+    },
+    "homepage": "https://github.com/fwipsity/community-bot#readme",
+    "dependencies": {
+        "discord": "^0.8.2",
+        "dotenv": "^8.2.0",
+        "socket.io": "^4.0.0",
+        "sqlite3": "^5.0.2",
+        "tmi.js": "^1.7.2"
+    }
 }

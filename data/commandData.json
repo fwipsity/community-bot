@@ -1,0 +1,28 @@
+{
+    "normal": {
+        "!github": {
+            "response": "https://github.com/fwipsity",
+            "aliays": ["!git"]
+        },
+        "!twitter": {
+            "response": "https://twitter.com/fwipsity"
+        },
+        "!reddit": {
+            "response": "https://www.reddit.com/user/fwipsity",
+            "aliays": ["!red"]
+        },
+        "!discord": {
+            "response": "https://discord.gg/pqWYqKgwRp",
+            "aliays": ["!dis"]
+        },
+        "hello": {
+            "response": "hello!",
+            "aliays": ["hi", "hay", "hey", "heya", "howdy"]
+        },
+        "!bloop": {
+            "response": "bloop!",
+            "aliays": ["!mertensqaure", "!merten"]
+        }
+
+    }
+}

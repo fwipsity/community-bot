@@ -1,0 +1,19 @@
+{
+    "startAmount": 250,
+    "follow": 400,
+    "startBonus": 100,
+    "goldLoop": {
+        "loopTime": 240,
+        "basicAmount": 10,
+        "followerAmount": 15,
+        "discordMemberAmount": 15,
+        "follower&discordMemberAmount": 25,
+        "bonus": {
+            "loopTime": 450,
+            "basicAmount": 50,
+            "followerAmount": 60,
+            "discordMemberAmount": 60,
+            "follower&discordMemberAmount": 80
+        }
+    }
+}
